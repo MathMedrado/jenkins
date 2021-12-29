@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                docker build . -t matheusmedrado/2020:latest
             }
         }
         stage('Test') {
